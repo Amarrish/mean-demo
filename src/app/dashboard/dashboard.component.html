@@ -1,0 +1,53 @@
+<section class="" style="background-color: #bebebe; height: 900px;">
+  <h1 class="text-center text-primary">Hello {{username}}</h1>
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-xl-10">
+          <div class="card" style="border-radius: 1rem; height: 700px;">
+            <div class="row g-0">
+              <div class="col-md-6 col-lg-5 d-none d-md-block">
+                <img src="https://innovationatwork.ieee.org/wp-content/uploads/2021/06/bigstock-Closed-Padlock-On-Digital-Back-392379260_1024X684.png"
+                  alt="login form" class="img-fluid" style="border-radius: 1rem 0 0 1rem;height: 700px;" />
+              </div>
+              <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                <div class="card-body p-4 p-lg-5 text-black">
+  
+                  <form>
+  
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example17">firstname</label>
+                      <input  type="text" id="form2Example17" class="form-control form-control-lg" [(ngModel)]="fName" name="fname" />
+                    </div>
+  
+                    <div class="form-outline mb-4">
+                    <label class="form-label" for="form2Example27">lastname</label>
+                    <input type="text" id="form2Example27" class="form-control form-control-lg"  [(ngModel)]="lName" name="lname"/>
+                    </div>
+  
+                    <div class="form-outline mb-4">
+                        <label class="form-label" for="form2Example28">Desigination</label>
+                        <input type="text" id="form2Example28" class="form-control form-control-lg"  [(ngModel)]="desg" name="desg" />
+                        </div>
+                    
+                        <div class="form-outline mb-4">
+                            <label class="form-label" for="form2Example29">Age</label>
+                            <input type="text" id="form2Example29" class="form-control form-control-lg" [(ngModel)]="age" name="age" />
+                            </div>
+
+                            <div class="pt-1 mb-4">
+                                <button  class="btn btn-dark btn-lg btn-block" type="button" (click)="update()">Update</button>
+                              </div>
+  
+                    <a href="#!" class="small text-muted">Terms of use.</a>
+                    <a href="#!" class="small text-muted">Privacy policy</a>
+                  </form>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
